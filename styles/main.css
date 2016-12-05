@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+html {
+    font: 16px
+}
+h1 {
+    font-size: 6rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.outer-shell {
+  width: 100vw;
+}
+
+.landing {
+    background: url("../img/main-bg.jpeg") center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.top-nav {
+    width: 100vw;
+    height: 98px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.top-nav-wide{
+  display: none;
+}
+
+.burger-shell {
+  margin-left: 15px;
+}
+
+.burger {
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    border: none;
+}
+
+.social-media-buttons {
+    display: flex;
+}
+
+#fbButton {
+    padding-left: 29px;
+    padding-right: 22px;
+}
+
+.titles {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 44vh;
+}
+
+.white {
+    color: #fff;
+}
+
+.down-button {
+    width: 70px;
+    align-self: center;
+    margin-bottom: 15px;
+
+}
+
+@media (min-width: 700px) {
+    .top-nav {
+        display: none;
+    }
+    .top-nav-wide{
+      width: 100vw;
+      height: 98px;
+      display: flex;
+      justify-content: space-around;;
+      align-items: center;
+    }
+    .top-nav-wide button{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2rem;  
+      color: #fff;
+
+
+    }
+    .titles{
+    margin: 0 ;
+    }
+
+}
