@@ -64,6 +64,11 @@ button {
 .social-media-buttons {
     display: flex;
 }
+.social-media-buttons img{
+  width: 19px;
+  filter: invert(100%);
+
+}
 
 #fbButton {
     padding-left: 29px;
