@@ -2,6 +2,7 @@
 html {
     font: 16px
 }
+
 h1 {
     font-size: 6rem;
 }
@@ -20,7 +21,7 @@ button {
 }
 
 .outer-shell {
-  width: 100vw;
+    width: 100vw;
 }
 
 .landing {
@@ -43,12 +44,13 @@ button {
     justify-content: space-between;
     align-content: center;
 }
-.top-nav-wide{
-  display: none;
+
+.top-nav-wide {
+    display: none;
 }
 
 .burger-shell {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .burger {
@@ -83,29 +85,26 @@ button {
     width: 70px;
     align-self: center;
     margin-bottom: 15px;
-
 }
 
 @media (min-width: 700px) {
     .top-nav {
         display: none;
     }
-    .top-nav-wide{
-      width: 100vw;
-      height: 98px;
-      display: flex;
-      justify-content: space-around;;
-      align-items: center;
+    .top-nav-wide {
+        width: 100vw;
+        height: 98px;
+        display: flex;
+        justify-content: space-around;
+        ;
+        align-items: center;
     }
-    .top-nav-wide button{
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 2rem;  
-      color: #fff;
-
-
+    .top-nav-wide button {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+        color: #fff;
     }
-    .titles{
-    margin: 0 ;
+    .titles {
+        margin: 0;
     }
-
 }
